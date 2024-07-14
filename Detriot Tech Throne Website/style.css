@@ -1,0 +1,314 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Navbar CSS */
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav .logo{
+    color: brown;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 23px;
+}
+nav .logo h1{
+    color: #ff8d01;
+    filter: drop-shadow(2px 4px 1px black);
+}
+nav .logo h1:hover{
+    cursor: pointer;
+}
+nav .logo h1 sup{
+    color: black;
+    font-weight: lighter;
+}
+nav ul {
+    display: flex;
+    padding-top: 10px;
+}
+li {
+    list-style-type: none;
+    padding: 10px;
+}
+nav ul li a{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+nav ul li a:hover{
+    transition: .5s ease-in-out;
+    color: brown;
+    border-bottom: 2px solid black;
+}
+/* BAnner CSS */
+.banner img{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 20%;
+}
+/* Some Travel Trip */
+.travelTripCont{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.row{
+    display: flex;
+}
+.col-1 h1{
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+.col-1 h1 sup{
+    color: brown;
+    border-bottom: 1px dotted black;
+}
+.col-2{
+    padding: 50px;
+}
+.ch_cont{
+    padding: 20px;
+}
+.ch_cont h1{
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+.ch_cont h1 sup{
+    color: brown;
+    border-bottom: 1px dotted black;
+}
+.ch_cont .sec_1,.sec_2{
+    display: flex;
+    padding: 10px;
+}
+
+/* About Page CSS */
+.about-cont{
+    padding: 20px;
+}
+.about-cont h1{
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+.about-cont h1 sub{
+    color: brown;
+    border-bottom: 1px dotted black;
+}
+span a{
+    text-decoration: none;
+    color: brown;
+    font-style: italic;
+
+}
+section{
+    display: flex;
+    padding: 20px;
+}
+.about_col_1{
+    width: 50%;
+    padding-right: 10px;
+}
+.about_col_1 img{
+    width: 100%;
+}
+.about_col_2{
+    width: 50%;
+    padding-left: 10px;
+}
+.about_col_2 img{
+    width: 100%;
+    height: 59%;
+}
+
+/* Contact PAGE CSS */
+.contact_container{
+    padding: 20px;
+    display: flex;
+}
+.contact_one{
+    border-right: 3px solid brown;
+    margin-left: 70px;
+    width: 50%;
+    padding: 30px;
+}
+.contact_one h1{
+    font-size: 25px;
+}
+.contact_two{
+    margin-left: 10px;
+}
+.contact_two input{
+    display: block;
+    padding: 5px;
+    border: 1px solid brown;
+}
+.contact_two button{
+    border: none;
+    background-color: brown;
+    color: whitesmoke;
+    border-radius: 10px;
+    padding: 5px 25px;
+}
+.contact_two button input{
+    background-color: transparent;
+    color: white;
+}
+.contact_two button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: .5s ease;
+}
+.contact_two button input:hover{
+    cursor: pointer;
+}
+/* Services CSS */
+    .services_container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 50px;
+    }
+    .serve_1{
+        display: flex;
+    }
+    .serve_1 img{
+        width: 100%;
+    }
+    .services_container .serve_1 > .col-1 ,.col-2{
+        width: 50%;
+    }
+    .services_container .serve_1 .col-2{
+        position: relative;
+    }
+    .services_container .serve_1 .col-2{
+        position: absolute;
+    }
+    .services_container .serve_1 .grid_1{
+        position: absolute;
+        left: 25.5rem;
+        top: 10px;
+        width: 30%;
+        border-radius: 10px;
+    }
+    .services_container .serve_1 .grid_2{
+        position: absolute;
+        left: 35rem;
+        top: 10px;
+        width: 25%;
+        border-radius: 10px;
+    }
+    .services_container .serve_1 .grid_3{
+        position: absolute;
+        left: 43rem;
+        top: 10px;
+        width: 25%;
+        border-radius: 10px;
+    }
+    .services_container .serve_1 .grid_4{
+        position: absolute;
+        left: 51rem;
+        top: 10px;
+        width: 20%;
+        border-radius: 10px;
+    }
+    .services_container .serve_1 .grid_5{
+        position: absolute;
+        left: 51rem;
+        top: 80px;
+        width: 20%;
+        border-radius: 10px;
+    }
+    .services_container .serve_1 .grid_6{
+        position: absolute;
+        left: 43rem;
+        top: 100px;
+        width: 25%;
+        border-radius: 10px;
+    }
+    .services_container .serve_1 .grid_7{
+        position: absolute;
+        left: 25.5rem;
+        top: 80px;
+        width: 30%;
+        border-radius: 10px;
+    }
+    .services_container .serve_1 .grid_8{
+        position: absolute;
+        left: 25.5rem;
+        top: 10.5rem;
+        width: 30%;
+        border-radius: 10px;
+    }
+    .services_container .serve_1 .grid_9{
+        position: absolute;
+        left: 25.5rem;
+        top: 17rem;
+        width: 30%;
+        border-radius: 10px;
+    }
+    .services_container .serve_1 .grid_10{
+        position: absolute;
+        left: 35.5rem;
+        top: 11.8rem;
+        width: 50%;
+        border-radius: 10px;
+    }
+    /* sticky work for services */
+    .stickywork{
+        margin-right: -50px;
+        background-color: black;
+        margin-top: 220px;
+        border-radius: 5px 0px;
+    }
+    .stickywork span:hover{
+        cursor: pointer;
+        padding-left: 100px;
+        transition: .5s ease;
+        border: 1px solid white;
+    }
+    .stickywork .str-1{
+        position: sticky;
+        color: coral;
+        font-weight: bolder;
+        left: 180rem;
+        font-size: 30px;
+        font-style: italic;
+        top: 50px;
+        padding: 5px;
+        text-transform: uppercase;
+    }
+/* Footer */
+#footer{
+    background-color: brown;
+    color: whitesmoke;
+    padding: 60px 20px;
+}
+#footer h1{
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+}
+#footer p{
+    text-align: center;
+}
+footer{
+background-color: #ff8d01;
+color: whitesmoke;
+padding: 20px;
+cursor: pointer;
+}
+footer span{
+font-weight: lighter;
+font-style: italic;
+}
